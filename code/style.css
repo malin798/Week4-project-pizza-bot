@@ -1,0 +1,134 @@
+body {
+  margin: 0 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  background-image: url("https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  width: 99vw;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+
+header h1 {
+  font-weight: lighter;
+  color:  rgb(80, 90, 70);
+  padding: 10px;
+  margin: 10px 15px;
+  font-size: 8em;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.welcome {
+  margin: 50px 0px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(237, 251, 222);
+}
+
+.pizza-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.timer {
+  display: inline-flex;
+  align-items: center;
+  height: 0px;
+  overflow: hidden;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.timer-on {
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  padding: 15px;
+  border: solid rgb(184, 228, 184) 2px;
+}
+
+.numbers-timer {
+  font-size: 20px;
+  font-family: monospace;
+  margin-left: 5px;
+  background-image: linear-gradient(to top left,#fab25f,#da6a93);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.finished-order-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  background-color: whitesmoke;
+  border-radius: 100px;
+  width: 80vw;
+  height: 0px;
+}
+
+.finished-order-images img {
+  width: 20vw;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.ordercomplete {
+  height: 400px;
+  margin: 50px 0px;
+  border: solid rgb(184, 228, 184) 1px;
+}
+
+.menu-item {
+  width: 25vw;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item:hover {
+  filter: grayscale(0.6);
+  cursor: pointer;
+}
+
+.menu-item p {
+  font-size: 3em;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  padding: 5px;
+  opacity: 0.8;
+}
+
+.vegetarian {
+  background-image: url("https://images.unsplash.com/photo-1559160582-eab6966b680f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+}
+
+.hawaiian {
+  background-image: url("images/photo-1565299624946-b28f40a0ae38.jpg");
+}
+
+.pepperoni {
+  background-image: url("https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+}
+
+footer {
+  height: 100px;
+  width: 99vw;
+}

@@ -4,9 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
     <title>Project 4: Pizzabot</title>
   </head>
   <body>
-    <h1>This is your Pizza Bot</h1>
+
+    <header>
+      <h1>Malin's pizza place</h1>
+
+    </header>
+    
+    <section class="welcome">
+
+      <h2>Welcome!</h2>
+      
+      <p id="availableMenuItems"></p>
+
+      <p>Order one of our authentic Italian pizza, baked in a traditional wood-fired pizza oven!</p>
+
+      <h2 id="orderConfirmation">Click on your favourite pizza to place your order &#127829 &#128071</h2>
+
+      <section class="timer" id="timerSection">
+        <h3>
+          Time until pizza delivery:
+        </h3> 
+        <div class="numbers-timer" id="timer"></div> 
+      </section>
+
+
+      <div class="finished-order-images" id="finishedOrderVegetarian">
+        <img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80">
+        <img src="https://images.unsplash.com/photo-1503767849114-976b67568b02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+        <img src="https://images.unsplash.com/photo-1531818555890-57b9fed23f36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+      </div></div>
+      
+      <div class="finished-order-images" id="finishedOrderHawaiian">
+        <img src="https://images.unsplash.com/photo-1518707606293-6274eadcf07d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+        <img src="https://images.unsplash.com/photo-1562835155-a7c2a225e97d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80">
+        <img src="https://images.unsplash.com/photo-1517260911058-0fcfd733702f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1413&q=80">
+      </div> 
+
+      <div class="finished-order-images" id="finishedOrderPepperoni">
+        <img src="https://images.unsplash.com/photo-1550507992-eb63ffee0847?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+        <img src="https://images.unsplash.com/photo-1569153507539-94e177b8cec2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+        <img src="https://images.pexels.com/photos/2271194/pexels-photo-2271194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+      </div> 
+
+    </section>
+
+    <section class="pizza-menu">
+
+      <div class="menu-item vegetarian" id="vegetarian">
+        <p>Vegetarian pizza
+        </p>
+      </div>
+
+      <div class="menu-item hawaiian" id="hawaiian">
+        <p>Hawaiian pizza
+        </p>
+        </div>
+
+      <div class="menu-item pepperoni" id="pepperoni">
+        <p>Pepperoni pizza
+      </p></div>
+
+    </section>
+
+    <footer></footer>
+
+    
+
+    <script src="pizzabot.js"></script>
   </body>
 </html>

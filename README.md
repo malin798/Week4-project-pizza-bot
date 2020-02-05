@@ -1,12 +1,11 @@
 # Pizza Bot
 
-Replace this readme with your own information about your project. 
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+Assignment for Technigo-bootcamp. The assignment was to create a site to order pizza, and to use Javascript to handle the order.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I made a rough layout before starting just to get a grip on how I wanted it to work, where the order-"button" was and so on. I started by doing a function for each of
+the different types of pizzas and then tried to make the code more general. I added a function for the price and number of pizzas to practice on doing functions.
 
 ## View it live
 
