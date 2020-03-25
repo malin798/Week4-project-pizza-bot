@@ -1,6 +1,6 @@
 # Pizza Bot
 
-Assignment for Technigo-bootcamp. The assignment was to create a site to order pizza, and to use Javascript to handle the order.
+Assignment for Technigo-bootcamp. The assignment was to create a site to order pizza, and to use Javascript to handle the order. Assignment to practice the fundamental syntax and concepts of JavaScript.
 
 ## The problem
 
