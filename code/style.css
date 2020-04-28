@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 0;
+  width: 100vw;
 }
 
 h2 {
@@ -15,7 +20,7 @@ header {
   justify-content: left;
   align-items: flex-end;
   background-image: url("https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  width: 99vw;
+  width: 100vw;
   height: 80vh;
   background-position: center;
   background-size: cover;
@@ -25,23 +30,26 @@ header h1 {
   font-weight: lighter;
   color:  rgb(80, 90, 70);
   padding: 10px;
-  margin: 10px 15px;
   font-size: 8em;
   background-color: white;
   opacity: 0.8;
 }
 
 .welcome {
+  width: 100%;
   margin: 50px 0px;
   padding: 20px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   background-color: rgb(237, 251, 222);
 }
 
 .pizza-menu {
   display: flex;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 100px;
 }
@@ -77,21 +85,20 @@ header h1 {
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
-  background-color: whitesmoke;
-  border-radius: 100px;
-  width: 80vw;
+  width: 0px;
   height: 0px;
 }
 
 .finished-order-images img {
   width: 20vw;
-  height: 300px;
   border-radius: 30px;
 }
 
 .ordercomplete {
-  height: 400px;
+  height: fit-content;
+  width: fit-content;
   margin: 50px 0px;
+  padding: 20px;
   border: solid rgb(184, 228, 184) 1px;
 }
 
@@ -101,6 +108,8 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
 }
 
 .menu-item:hover {
@@ -131,4 +140,102 @@ header h1 {
 footer {
   height: 100px;
   width: 99vw;
+}
+
+@media (max-width: 667px) {
+
+  p {
+    font-size: 20px;
+  }
+
+  header h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+
+  .menu-item p {
+    font-size: 30px;
+  }
+
+  .timer-on {
+    font-size: 15px;
+    width: 90%;
+    height: 50px;
+  }
+
+  header {
+    height: 30vh;
+  }
+
+  .welcome {
+    padding: 0px 10px;
+  }
+
+  .pizza-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .menu-item {
+    width: 70%;
+    height: 25vh;
+    margin: 10px 0;
+  }
+
+  .ordercomplete {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .finished-order-images {
+    border-radius: 40px;
+  }
+
+  .finished-order-images img {
+    width: 60%;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 668px) {
+
+  header {
+    height: 35vh;
+    padding: 20px 40px;
+  }
+  header h1 {
+    font-size: 5em;
+  }
+  .menu-item {
+    width: 45vw;
+    margin: 10px;
+    height: 25vh;
+  }
+
+  .welcome {
+    padding: 0px 40px;
+  }
+
+  .finished-order-images img {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1025px) {
+
+  header h1 {
+    font-size: 7em;
+  }
+  
+  .menu-item {
+    width: 30vw;
+  }
 }
