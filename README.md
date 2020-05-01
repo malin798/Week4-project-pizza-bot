@@ -9,8 +9,4 @@ the different types of pizzas and then tried to make the code more general. I ad
 
 ## View it live
 
-<<<<<<< HEAD
-malins-pizzabot.netlify.com
-=======
-malins-pizza-bot-project.netlify.com
->>>>>>> 6e32a24b9f0653a4bac70fb69292d1f96f8710d5
+https://malins-pizza-bot-project.netlify.app
